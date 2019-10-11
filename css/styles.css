@@ -1,7 +1,8 @@
 /*!Title: Dev Portfolio TemplateVersion: 1.2.1Last Change: 08/28/2017Author: Ryan FitzgeraldRepo: https://github.com/RyanFitzgerald/devportfolio-templateIssues: https://github.com/RyanFitzgerald/devportfolio-template/issuesDescription: This file contains all the styles associated with the pagethat don't come from third party libraries. This file gets compiled usingGulp and send to the /css folder which is then loaded on the page.*/
 body{
 	font-family:'Lato', sans-serif;
-	font-size:16px
+	font-size:16px;
+	color:#000
 }
 body.active{
 	overflow:hidden;
@@ -252,7 +253,7 @@ footer{
 	right:0;
 	bottom:0;
 	left:0;
-	background:rgba(51,51,51,0.8);
+	background:rgba(40,40,40,0.9);
 	z-index:1
 }
 #lead-down{
@@ -276,7 +277,7 @@ footer{
 	text-align:center
 }
 #lead-down i{
-	animation:pulsate 1.5s ease;
+	animation:pulsate s ease;
 	animation-iteration-count:infinite;
 	padding-top:5px
 }
@@ -293,10 +294,12 @@ footer{
 }
 #about{
 	padding:75px 15px;
-	border-bottom:1px solid #dcd9d9
+	border-bottom:1px solid #dcd9d9;
+	background:rgba(0,0,0,1)
 }
 #about h2{
-	color:#374054
+	color:#fff;
+	font-size:48px
 }
 #about p{
 	color:#74808a;
@@ -308,7 +311,8 @@ footer{
 	border-bottom:1px solid #dcd9d9
 }
 #experience h2{
-	color:#374054
+	color:#00aaff;
+	font-size:52px
 }
 #experience-timeline{
 	margin:30px auto 0 auto;
@@ -392,7 +396,7 @@ footer{
 	left:0;
 	top:10px;
 	font-weight:300;
-	color:#374054
+	color:#fff
 }
 #education{
 	padding:50px 15px 20px 15px;
@@ -483,10 +487,11 @@ footer{
 }
 #skills{
 	padding:50px 15px;
-	text-align:center
+	text-align:center;
+	background:#fff
 }
 #skills h2{
-	color:#374054;
+	color:#000;
 	margin-bottom:50px
 }
 #skills ul{
@@ -497,17 +502,17 @@ footer{
 }
 #skills li{
 	display:inline-block;
-	margin:7px;
-	padding:5px 10px;
-	color:#374054;
-	background:#e4e4ea;
+	margin:1px;
+	padding:10px 15px;
+	color:#fff;
+	background:#000;
 	list-style:none;
 	cursor:default;
-	font-size:1.2em
+	font-size:1.4em
 }
 #contact{
 	padding:50px 15px;
-	background:#3498db;
+	background:#000;
 	text-align:center
 }
 #contact h2{
