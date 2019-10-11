@@ -55,6 +55,9 @@ header{
 	animation-timing-function:ease;
 	animation-duration:0.75s
 }
+header:hover{
+	font-size:45
+}
 header ul{
 	display:inline-block;
 	background:#111;
@@ -70,13 +73,16 @@ header li{
 header a{
 	display:block;
 	color:#3498db;
-	padding:10px
+	padding:10px;
+	top: 50%;
+	transition:.15s ease all
 }
 header a:hover{
 	color:#217dbb;
 	text-decoration:none;
-	background:#eee;
-	border-radius:0px
+	background:#fff;
+	border-radius:0px;
+	font-size:55px
 }
 header a:focus{
 	color:#3498db;
@@ -124,7 +130,8 @@ header.sticky{
 	vertical-align:middle
 }
 footer{
-	padding:50px 0
+	padding:50px 0;
+	background:#000
 }
 .copyright{
 	padding-top:20px
@@ -176,12 +183,15 @@ footer{
 	border:10px solid #fff;
 	border-radius:0px;
 	transition:.25s ease all;
-	font-size : 32px
+	font-size : 32px;
+	margin:30px
 }
 .btn-rounded-white:hover{
-	color:#3498db;
+	color:#000;
 	background:#fff;
-	text-decoration:none
+	text-decoration:none;
+	margin:30px;
+	font-size:120px
 }
 .shadow{
 	box-shadow:0 1px 3px rgba(0,0,0,0.12),0 1px 2px rgba(0,0,0,0.24)
@@ -234,6 +244,7 @@ footer{
 #lead-content h1{
 	color:#fff;
 	font-weight:900;
+	margin:30px;	
 	font-size:5em;
 	text-transform:uppercase;
 	letter-spacing:0.05em;
@@ -486,13 +497,13 @@ footer{
 	display:none
 }
 #skills{
-	padding:50px 15px;
+	padding:10px 0px;
 	text-align:center;
 	background:#a1a1a1
 }
 #skills h2{
 	color:#000;
-	margin-bottom:50px
+	margin-bottom:20px
 }
 #skills ul{
 	display:block;
@@ -501,6 +512,31 @@ footer{
 	max-width:800px
 }
 #skills li{
+	display:inline-block;
+	margin:1px;
+	padding:0px 15px;
+	color:#fff;
+	background:#000;
+	list-style:none;
+	cursor:default;
+	font-size:1.4em
+}
+#skills2{
+	padding:10px 15px;
+	text-align:center;
+	background:#a1a1a1
+}
+#skills2 h2{
+	color:#000;
+	margin-bottom:50px
+}
+#skills2 ul{
+	display:block;
+	margin:0 auto;
+	padding:0;
+	max-width:800px
+}
+#skills2 li{
 	display:inline-block;
 	margin:1px;
 	padding:10px 15px;
