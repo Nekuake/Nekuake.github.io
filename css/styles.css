@@ -174,7 +174,8 @@ footer{
 	padding:15px 25px;
 	border:10px solid #fff;
 	border-radius:0px;
-	transition:.25s ease all
+	transition:.25s ease all;
+	font-size : 20px
 }
 .btn-rounded-white:hover{
 	color:#3498db;
