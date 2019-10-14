@@ -118,8 +118,7 @@ header.sticky{
 	font-size:1.5em;
 	z-index:20;
 	padding:0 7px;
-	border-radius:4px;
-	background:#fff
+	background:#000
 }
 #mobile-menu-close{
 	display:none;
@@ -128,7 +127,7 @@ header.sticky{
 	background:#fff;
 	font-size:1.5em;
 	padding-right:15px;
-	padding-top:10px;
+	padding-top:0px;
 	cursor:pointer;
 	color:#3498db
 }
