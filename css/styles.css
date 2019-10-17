@@ -198,7 +198,24 @@ footer{
 	animation-delay:0.05s;
 	animation-fill-mode: forwards
 }
-
+.portfolio-boton{
+	display:inline-block;
+	color:#000;
+	background: #fff;
+	padding:15px 25px;
+	border:10px solid #fff;
+	border-radius:0px;
+	transition:.25s ease all;
+	font-size : 4vmax;
+	margin:30px;
+	left: 50%; 
+	text-align:center;
+	align-content: center;
+}
+.portfolio-boton:hover{
+	background:#000;
+	border:10px solid #0066ff;
+}
 .shadow{
 	box-shadow:0 1px 3px rgba(0,0,0,0.12),0 1px 2px rgba(0,0,0,0.24)
 }
@@ -384,8 +401,11 @@ footer{
 }
 #about{
 	padding:75px 15px;
-
+	transition:.15s ease all;
 	background:rgba(0,0,0,1)
+}
+#about: hover{
+	padding: 75px 30px;
 }
 #about h2{
 	color:#fff;
@@ -401,7 +421,6 @@ footer{
 	padding:50px 15px;
 	text-align:center;
 }
-
 #experience h2{
 	color:#00aaff;
 	font-size:52px
