@@ -404,7 +404,7 @@ footer{
 	transition:.15s ease all;
 	background:rgba(0,0,0,1)
 }
-#about: hover{
+#about:hover{
 	padding: 75px 30px;
 }
 #about h2{
